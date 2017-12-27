@@ -22,10 +22,10 @@ function increaseRankBy(n)
 function deepestChild()
 {
   var tempNode = document.querySelector("#grand-node");
-  var isParent = true;
+  // var isParent = true;
   // console.log (tempNode.innerHTML);
 
-  while (isParent)
+  while (5 === 5)
   {
     var innerNode = tempNode.querySelector("* *");
       if (innerNode.querySelector("* *") !== null)
@@ -36,7 +36,7 @@ function deepestChild()
         }
       else
         {
-          return innerNode.innerHTML;
+          return innerNode;
         }
   } // close while loop
 }
